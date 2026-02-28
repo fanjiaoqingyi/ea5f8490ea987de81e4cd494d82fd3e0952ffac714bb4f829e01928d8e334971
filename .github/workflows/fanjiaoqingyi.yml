@@ -1,25 +1,24 @@
 name: fanjiaoqingyi
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 1/6 * * *'
+    - cron: '52 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fanjiaoqingyi
         env:
-          g303: ${{ secrets.g303 }}
+          alb6: ${{ secrets.alb6 }}
         run: |
-          echo $g303 | jq -r .kzzi81 | /bin/bash
-          echo $raze68 | jq -r .hdhzz2 | /bin/bash
-          echo $oa396 | jq -r .hcdr2 | /bin/bash
-          echo $wy207 | jq -r .k3966 | /bin/bash
-          echo $wudq8 | jq -r .ycww762 | /bin/bash
-          echo $stug14 | jq -r .wy76444 | /bin/bash
-          echo $tagw8545 | jq -r .waw1634 | /bin/bash
-          echo $bx92 | jq -r .ktcme47843 | /bin/bash
+          echo $alb6 | jq -r .prz2962 | /bin/bash
+          echo $xpykm395 | jq -r .na86021 | /bin/bash
+          echo $io4 | jq -r .cohj5 | /bin/bash
+          echo $zpcze08 | jq -r .mpo4 | /bin/bash
+          echo $wblm1 | jq -r .rm5745 | /bin/bash
+          echo $m2567 | jq -r .g4710 | /bin/bash
+          echo $sel56688 | jq -r .itha30 | /bin/bash
 
